@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_action_action_search"
+        android:showAsAction="always|collapseActionView"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/create"
+        android:actionLayout="@layout/menu_add_action_layout"
+        android:icon="@drawable/ic_action_image_edit"
+        android:showAsAction="always"
+        android:title="Create"
+        app:actionLayout="@layout/menu_add_action_layout"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/sms"
+        android:icon="@drawable/ic_action_settings"
+        android:showAsAction="never"
+        android:title="Default SMS"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/ic_action_file_cloud_upload"
+        android:showAsAction="never"
+        android:title="Backup"
+        app:showAsAction="never" />
+
+</menu>

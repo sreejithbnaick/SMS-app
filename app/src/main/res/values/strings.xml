@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sms</string>
+    <string name="sms_permission_is_requirec_to_run_this_application">SMS Permission is required to run this application</string>
+    <string name="contact_permission_is_requirec_to_run_this_application">CONTACT Permission is required to run this application</string>
+    <string name="make_app_default_sms_app">Need to make this app default SMS APP for complete working. </string>
+    <string name="get">GET</string>
+    <string name="set">SET</string>
+    <string name="backup_all_your_messages">Backup all your messages to Google Drive.</string>
+    <string name="retry">RETRY</string>
+    <string name="data_in_background">** Backup request will be added to queue and upload will happen in background</string>
+    <string name="backup">Backup</string>
+    <string name="please_wait">please wait, Accessing Google Drive</string>
+</resources>
